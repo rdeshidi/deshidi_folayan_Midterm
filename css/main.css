@@ -1,0 +1,536 @@
+@charset "utf-8";
+
+.hidden{
+	display: none;
+}
+
+p{
+	text-align: center;
+	font-weight: normal;	
+	color: white;
+	margin: 0 auto;
+}
+
+h2,h3{
+	text-align: center;
+	font-weight: normal;
+	font-size: 23px;
+    padding-top: 15px;	
+	color: white;
+	margin: 0 auto;
+}
+
+div,p,body,header,footer,section,article,nav{ 
+	margin: 0; 
+	padding: 0; 
+}	
+
+body {
+	font-family: 'Arial', Helvetica, sans-seris;
+	font-size: 18px;
+	padding: 20px;
+}
+
+#container{
+	width: 1400px;
+	background-color: #e7e2e2;
+	margin: 0 auto;
+	
+}
+
+#mainHeader{
+	overflow: hidden;
+}
+
+#logoHeader{
+	margin-top: 20px;
+	width: 240px;	
+	float: left;
+    
+}
+
+
+#searchBar{
+	width: 200px;	
+	float: right;
+	margin-top: 103px;
+}
+
+#searchBar input{
+	padding: 6px;
+  border: none;
+  margin-right: 16px;
+  font-size: 17px;
+  margin-bottom: -1px;
+}
+
+#mainNav{
+	width: 1160px;	
+	background-color: #636363;	
+	display: flex;
+    margin-right: 20px;
+    height: 40px;
+    padding-top: 20px;
+}
+
+#mainNav ul {
+	list-style-type: none;
+	padding: 0;
+	margin-left: 200px;
+}
+
+#mainNav ul li{
+	display: inline; 
+	margin-right: 50px;
+}
+
+#mainNav ul li a{
+	font-size: 23px;
+	color: #fff;
+	padding: 5px;
+}
+
+#mainNav ul li a:hover {
+	background-color: #d5e9f2
+}
+
+#banner{
+    width: 1400px;    
+    background-color: #959595;
+    float: right;
+}
+
+#banner p{
+	line-height: 215px;
+}
+
+#welcomeText{
+	background-color: #464646;
+	width: 1183px;
+	height: 265px;	
+	margin: 0 auto;    													                                                                                                                                                                               
+	margin-top: 30px;
+	margin-right: 108.5px;
+	margin-left: 108.5px; 	
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#welcomeText h2{
+	padding-top: 30px;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+#welcomeText p{
+	padding-top: 30px;
+	line-height: 40px;
+}
+
+b{
+	font-size: 22px;
+}
+
+#trout{
+	margin-top: 30px;
+}
+
+#img{
+    float: left;
+    width: 291px;
+    height: 291px;
+    background-color: #a1a1a1;
+    margin-left: 20px;
+}
+
+#img p{
+	
+}
+
+#troutHatchery{
+	background-color: #464646;
+	width: 1050px;
+	height: 291px;
+	float: right;
+	margin-right: 34px;
+}
+
+#troutHatchery p{
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: left;
+	line-height: 25px;
+}
+
+#local {
+    margin-top: 30px;
+	width: 1330px;	
+	height: 55px;																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																																														;
+	background-color: #555555;
+	float: right;
+	margin-right: 35px;
+}
+
+#local p{
+	
+}
+
+.slide{
+	width: 266px;
+	background-color: #555555;
+	height: 491px;
+	float: left;	
+}
+
+.slide p{
+	margin-top: 20px;
+	padding: 10px;
+	text-align: left;
+	line-height: 20px;
+}
+
+.slideLast{
+	float: right;
+	width: 266px;
+	background-color: #555555;
+	height: 491px;
+	margin-right: 35px;	
+}
+
+.slideLast p{
+      margin-top: 20px;
+      padding: 10px;
+      text-align: left;
+      line-height: 20px;
+}
+
+#slides{
+     margin-left: 35px;
+}
+
+.image {
+	width: 229px;
+	background-color: #a1a1a1;
+	margin-left: 18px;
+}
+
+.image p{
+	line-height: 80px;
+}
+
+#announcements {
+	float: right;
+	margin-right: 122px;
+	margin-left: 122px;
+	margin-top: 30px;
+}
+
+#membership{
+	width: 537px;
+	float: left;
+	margin-right: 80px;
+	background-color: #252525;
+}
+
+#membership p{
+	line-height: 296px;
+}
+
+#fund{
+	width: 537px;
+	float: right;
+	background-color: #252525;
+}
+
+#membership p{
+	line-height: 296px;
+}
+
+#fund p{
+	line-height: 296px;
+}
+
+button{
+	float: right;
+	line-height: 30px;
+	background-color: #555555;
+	color: white;
+	 border: 1px solid #ccc;
+}
+
+#footer {
+	width: 1400px;
+	height: 146px;
+	background-color: #252525;
+	margin-top: 1300px;
+}
+
+#socMedCon{
+margin-left: 120px;
+padding-top: 20px;
+}
+
+#follow{
+	width: 330px;
+	background-color: #555555;
+}
+
+#follow p{
+	line-height: 45px;
+}
+
+.icon{
+	width: 42px;
+	height: 42px;
+	background-color: #959595;
+	float: left;
+	margin-left: 30px;
+	margin-top: 15px;
+}
+
+#copy {
+	width: 545px;
+	background-color: #555555;
+	float: right;
+	margin-right: 120px;
+}
+
+#copy p{
+	line-height: 45px;
+}
+
+
+#about {
+	width: 1400px;
+	background-color: #464646;
+	margin-top: 30px;
+    height: 293px;
+}
+
+#about p{
+     text-align: left;
+     margin-left: 10px;
+     margin-right: 10px;
+}
+
+#about h2{
+     color: white;
+     text-align: center;
+     margin-top:30px;
+     font-size: 23px;
+}
+
+
+#photos{
+	margin-top: 30px;
+	margin-right: 200px;
+	margin-left: 113px;
+}
+
+.promoImg{
+	width: 259px;
+	background-color: #464646;
+	float: left;
+	margin-left: 87px;
+}
+
+.promoImgLast{
+	width: 259px;
+	background-color: #464646;
+    float: right;
+    }
+
+.promoImg p{
+	line-height: 219px;
+}
+
+.promoImgLast p{
+	line-height: 219px;
+}
+
+#moreAbout {
+	width: 1184px;
+	height: 293px;
+	background-color: #464646;
+	margin-top: 290px;
+    margin-right: 108px;
+    margin-left: 108px;
+}
+
+#executives {
+	width: 1184px;
+	height: 293px;
+	background-color: #464646;
+	margin-top: 30px;
+    margin-right: 108px;
+    margin-left: 108px;
+}
+
+#executives p{
+	text-align: center;
+}
+
+#volunteer {
+	width: 1184px;
+	height: 293px;
+	background-color: #464646;
+	margin-top: 30px;
+    margin-right: 108px;
+    margin-left: 108px;
+    margin-bottom: -1000px;
+}
+
+#volunteer p{
+	
+}
+
+span{
+	font-weight: bold;
+	
+}
+
+.credentials{
+display: flex;
+flex-direction: row;
+margin: 50px;
+padding-left: 80px;
+}
+
+.credentials p{
+margin-right: 80px;
+}
+
+#projects{
+	width: 1340px;
+	background-color: #464646;
+	height: 230px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+#rows{
+	width: 1340px;
+	background-color: #464646;
+	height: 400px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: -1250px;
+}
+
+#rows p{
+	text-align: left;
+}
+
+#projects p{
+      margin: 20px;
+      text-align: left;
+      line-height: 26px;
+}
+
+.hands{
+	font-weight: bold;
+}
+
+#currentProjects, #oldProjects{
+	margin: 10px;
+}
+
+.projLeft, .projRight{
+	margin-bottom: 20px;
+}
+
+#contactBox{
+	width: 1020px;
+	height: 600px;
+	background-color: #464646;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: -1270px;
+}
+
+#contactForm{
+display: flex;
+	flex-direction: column;
+	margin-top: 30px;
+	margin-left: 250px;
+}
+
+label{
+	color: white;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+input,textarea{
+	width: 500px;
+	margin-bottom: 20px;
+}
+
+input{
+	line-height: 30px;
+}
+
+#submit
+{
+	background-color: blue;
+	border: 1px solid #330500;
+	width: 90px;
+	height: 40px;
+	font-size: 14px;
+	display: block;
+	text-align: center;
+	margin-top: 5px;
+	color: #FFF;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#news{
+	width: 1340px;
+	height: 1000px;
+	margin: 0 auto;
+	background-color: #464646;
+	margin-top: 30px;
+	margin-bottom: -1250px;
+}
+
+#links{
+	width: 1340px;
+	height: 1000px;
+	margin: 0 auto;
+	background-color: #464646;
+	margin-top: 30px;
+	margin-bottom: -1250px;
+}
+
+#links p{
+	line-height: 20px;
+}
+
+#links h3{
+	padding: 20px;
+	text-align: left;
+}
+
+#links p{
+	text-align: left;
+	padding: 20px;	
+}
+
+.links{
+	color: pink;
+}
+
+#news p{
+	line-height: 22px;
+	text-align: left;
+	padding: 20px;
+}
+
+#news h3{
+	margin-top: 10px;
+}
