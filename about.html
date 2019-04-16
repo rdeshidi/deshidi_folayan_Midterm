@@ -9,15 +9,23 @@
 <body>
 	<h1 class="hidden">TRAA</h1>
 	<div id="container">
-		<header id="mainHeader">
+		<header id="mainHeader">		  
 			<div id="logoHeader">
 				<img src="images/logo.png" alt="logo">
 			</div><!-- end logoHeader -->
-			<div id="searchBar">
-				<input type="text" placeholder="Search..">
-				<button>Search</button>
-			</div><!-- end searchBar -->
-			<div id="mainNav">
+			<div id="titleBar">
+				<h2 class="thames">THAMES RIVER <br> ANGLERS ASSOCIATION</h2>
+			</div><!-- end logoHeader -->
+			<form id="searchForm" action="search.php" method="get">
+              <div id="searchCon">
+                <input type="text">
+                <input type="submit" value="search">
+              </div>
+            </form>          			
+		</header><!-- end mainHeader -->
+
+		<nav id="mainNav">
+			<h2 class="hidden">navigation</h2>
 				<ul>
 					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">About Us</a></li>
@@ -26,21 +34,18 @@
 					<li><a href="links.html">Links</a></li>
 					<li><a href="contact.html">Contacts</a></li>
 				</ul>
-			</div><!-- end mainNav -->
-			<div id="banner">
-				<img src="images/banner.jpg" alt="banner">
-			</div><!-- end banner -->
-		</header><!-- end mainHeader -->
+			</nav><!-- end mainNav -->
+			<div id="banner"></div><!-- end banner -->
 
 		<div id="about">
-			<h2>About The TRAA</h2><br><br><br>
-		    <p>The TRAA Works at a Grassroots Level Within the Thames River Watershed to:<br><br>
+			<h2>About The TRAA</h2><br>
+		    <p>The TRAA Works at a Grassroots Level Within the Thames River Watershed to:<br>
 
-Protect, enhance and regenerate a viable, multi-species, year-round fishery.<br>
-Promote and participate in environmental clean-up, pollution control and rehabilitation.<br>
-Breed, relocate and stock to re-establish or augment appropriate species of fish.<br>
-Promote environmentally sound sport fishing practices.<br>
-Form partnerships with community businesses, government agencies, special interest groups, landowners, and other stakeholders in the Thames River watershed.<br>
+Protect, enhance and regenerate a viable, multi-species, year-round fishery.
+Promote and participate in environmental clean-up, pollution control and rehabilitation.
+Breed, relocate and stock to re-establish or augment appropriate species of fish.
+Promote environmentally sound sport fishing practices.
+Form partnerships with community businesses, government agencies, special interest groups, landowners, and other stakeholders in the Thames River watershed.
 Increase public awareness of the unique diversity of the Thames River Watershed, its challenges, its recreational opportunities and its vital importance to our community.</p>
 		</div>
 
@@ -61,56 +66,54 @@ Increase public awareness of the unique diversity of the Thames River Watershed,
 
 		<div id="moreAbout">
 			<h2>More About The TRAA</h2><br><br>
-			<p>In the spring of 1986 the TRAA was formed by anglers concerned with the state of the fishery in the Thames River watershed, particularly the dwindling smallmouth bass population in the North Thames River.<br><br>
+			<p>In the spring of 1986 the TRAA was formed by anglers concerned with the state of the fishery in the Thames River watershed, particularly the dwindling smallmouth bass population in the North Thames River.
 
-The TRAA is not a fishing club, although most members are anglers and share fishing as a common interest. We are a "hands on" environmental group who likes to work at a grass roots level.<br><br>
+The TRAA is not a fishing club, although most members are anglers and share fishing as a common interest. We are a "hands on" environmental group who likes to work at a grass roots level.
 
-The TRAA is a volunteer organization, governed by a formal constitution and by-laws. An elected Executive, with the guidence of the General Membership, sets the policies and direction for the TRAA.<br><br>
+The TRAA is a volunteer organization, governed by a formal constitution and by-laws. An elected Executive, with the guidence of the General Membership, sets the policies and direction for the TRAA.
 
 The TRAA has a history of always having a core group of active members supported by those who just want to be part of the solution. Either way, every member of the TRAA is active in their advocacy for the health of the Thames River watershed and its inhbitants.</p>
 		</div>
 
 		<div id="executives">
-			<h2>TRAA Executives</h2><br><br>
+			<section id="execTitle">
+				<h2>TRAA Executives</h2>
+			</section>			
 			<section class="credentials">
 				<h3 class="hidden">Executives Names</h3>
-			<p><span>President</span><br><br>Rob Huber</p><br>
-			<p><span>Vice President</span><br><br>Paul Holmes</p><br>
-			<p><span>Secretary</span><br><br>Jeremy Beaton</p><br>
-			<p><span>Treasurer</span><br><br>Randy Bailey</p><br>
-			<p><span>Chairperson</span><br><br>Adam Bengen</p>
+			<p>President -      Rob Huber</p><br>
+			<p>Vice President - Paul Holmes</p><br>
+			<p>Secretary -      Jeremy Beaton</p><br>
+			<p>Treasurer -      Randy Bailey</p><br>
+			<p>Chairperson -    Adam Bengen</p>
 			</section>
 		</div>
 
 		<div id="volunteer">
-			<h2>TRAA Volunteer Committee Chairs</h2>
+						<section id="volunTitle">
+							<h2>TRAA Volunteer <br>Committee Chairs</h2>
+						</section>
 			<section class="credentials">
 				<h3 class="hidden">Volunteer Names</h3>
-			<p><span>Trout</span><br><br>Dan Schinkelshoek</p><br>
-			<p><span>Warmwater</span><br><br>Pud Hunter</p><br>
-			<p><span>Public Relations</span><br><br>Rob Huber
-Randy Bailey
-Paul Noble</p><br>
-			<p><span>Hatchery Management</span><br><br>Adam Bengen
-Randy Bailey</p><br>
-			<p><span>Habitat</span><br><br>Jeremy Beaton
-Paul Holmes
-Randy Bailey</p>
+			<p>Trout -               Dan Schinkelshoek</p><br>
+			<p>Warmwater -           Pud Hunter</p><br>
+			<p>Public Relations -    Rob Huber | Randy Bailey | Paul Noble</p><br>
+			<p>Hatchery Management - Adam Bengen | Randy Bailey</p><br>
+			<p>Habitat -             Jeremy Beaton | Paul Holmes | Randy Bailey</p>
 			</section>
 		</div>
 
 		
 
 		    <div id="footer">
-		    	<section id="socMedCon">
-		    		<h2 class="hidden">Media</h2>
-		    		<div id="follow"><p>Follow Us On...</p></div>
+		    		<div id="follow"><p>Follow Us On...</p>
 		    		<a href="#" class="icon"><img src="images/fb.jpg" alt="facebook"></a>
 		    		<a href="#" class="icon"><img src="images/twitter.jpg" alt="twitter"></a>
 		    		<a href="#" class="icon"><img src="images/youtube.jpg" alt="youtube"></a>
 		    		<a href="#" class="icon"><img src="images/instagram.jpg" alt="instagram"></a>
-		    	</section>
-		    	<section id="copy"><h2 class="hidden">Ownership</h2><p>Copyright</p></section>
+		    	</div>
+					<p>Copyright © TRAA Anglers</p>
+				   <img src="images/footer_logo.png" alt="logo footer">
 		    </div>
 	</div><!-- end container -->
 <script src="js/main.js"></script>
